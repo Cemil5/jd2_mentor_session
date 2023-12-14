@@ -28,7 +28,7 @@ public class VowelRemover {
         System.out.println(removeVowels("everything is an object"));
     }
 
-    public static String removeVowels(String str){
+    public static String removeVowels1(String str){
         String result = "";
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
@@ -49,17 +49,15 @@ public class VowelRemover {
         return result;
     }
 
-    public static String vowelRemover(String str) {
+    public static String removeVowels(String str) {
 
         String result = "";
 
         for (int i = 0; i < str.length(); i++) {
             char currentChar = str.charAt(i);
-            if (!("aeiou ".indexOf(currentChar) == -1)) { // checks if the character is not a vowel or space
-                continue;
-
+            if (("aeiou ".indexOf(currentChar) == -1)) { // checks if the character is not a vowel or space
+                result += currentChar;
             }
-            result += currentChar;
         }
         return result;
     }

@@ -1,0 +1,8 @@
+/.idea/
+/out/
+.gitignore
+*.iml
+/src/archive/
+/src/week_03/
+/src/week_04/
+/src/week_05/
