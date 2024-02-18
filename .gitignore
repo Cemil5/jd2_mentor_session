@@ -2,7 +2,7 @@
 /out/
 .gitignore
 *.iml
-/src/archive/
+/src/main/java/archive/
 /src/week_03/
 /src/week_04/
 /src/week_05/
