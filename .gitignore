@@ -1,8 +1,8 @@
 /.idea/
-/out/
 .gitignore
 *.iml
 /src/main/java/archive/
-/src/week_03/
-/src/week_04/
-/src/week_05/
+/target/
+/src/main/java/week_03/
+/src/main/java/week_04/
+/src/main/java/week_05/
