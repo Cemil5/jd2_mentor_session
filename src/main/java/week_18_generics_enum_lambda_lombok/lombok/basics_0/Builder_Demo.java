@@ -9,8 +9,8 @@ public class Builder_Demo {
         Student student = new StudentBuilder()
                 .name("Ower")
                 .surname("Any")
-                .email("ower@gmail.com")
-                .courses(Arrays.asList("English", "French"))
+//                .email("ower@gmail.com")
+//                .courses(Arrays.asList("English", "French"))
                 .year(2002)
                 .build();
 

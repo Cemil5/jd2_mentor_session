@@ -12,6 +12,7 @@ public class SumOfDigitsUntilSingleDigit {
         int sum;
         do {
             sum = 0;
+            n = Math.abs(n);
             while (n > 0) {
                 sum += n % 10;
                 n = n / 10;
@@ -23,6 +24,7 @@ public class SumOfDigitsUntilSingleDigit {
 
     public static int withRecursion(int n) {
         int sum = 0;
+        n = Math.abs(n);
         while (n > 0) {
             sum += n % 10;
             n = n / 10;

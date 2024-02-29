@@ -1,19 +1,18 @@
-package week_17_no_algo.equal_hashCode;
+package week_18_generics_enum_lambda_lombok.equal_hashCode;
 
 public class EqualsHashcodeTest {
     public static void main(String[] args) {
 
-        EqualsHashcodeTest cruequalsHashcodeTestTest = new EqualsHashcodeTest();
         Money one = new Money("USD", 55);
         Money two = new Money("USD", 55);
-        cruequalsHashcodeTestTest.test1(one, two);
+        test1(one, two);
 
         Money three = new Money("USD", 55);
         Money four = new Money("EURO", 55);
-        cruequalsHashcodeTestTest.test2(three, four);
+        test2(three, four);
     }
 
-    public void test1(Money one, Money two) {
+    public static void test1(Money one, Money two) {
         if (one.equals(two)) {
             System.out.println("Test1: One and Two are equal");
         } else {
@@ -21,7 +20,7 @@ public class EqualsHashcodeTest {
         }
     }
 
-    public void test2(Money three, Money four) {
+    public static void test2(Money three, Money four) {
         if (three.equals(four)) {
             System.out.println("Test2: Three and Four are equal");
         } else {

@@ -14,8 +14,8 @@ Output: 3
 public class SumOfDigits {
 
     public static int findSumOfDigits(int number) {
-        int sum = 0;
 
+        int sum = 0;
         // Ensure the number is non-negative
         number = Math.abs(number);
 

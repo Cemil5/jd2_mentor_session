@@ -1,4 +1,4 @@
-package week_17_no_algo.equal_hashCode;
+package week_18_generics_enum_lambda_lombok.equal_hashCode;
 
 import java.util.Objects;
 

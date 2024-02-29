@@ -11,6 +11,7 @@ public class MainConstructor {
                 .phoneNumber(123l)
                 .build();
 
+        build.setYear(2024);
         System.out.println(build);
     }
 }
