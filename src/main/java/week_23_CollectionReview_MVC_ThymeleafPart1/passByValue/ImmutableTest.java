@@ -9,7 +9,7 @@ public class ImmutableTest {
     }
 
     static void modifyName(String s){
-        s = "Cydeo School";
+        s = s.concat(" School");
     }
 
 }

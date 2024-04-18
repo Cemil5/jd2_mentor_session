@@ -11,8 +11,6 @@ public class CollectionTest {
         System.out.println("original list : " + list);
         addToList(list);
         System.out.println("after addition : " + list); //
-        deleteList(list);
-        System.out.println("after deletion : " + list);
         clearList(list);
         System.out.println("after clear : " + list);
         assignNewList(list);
@@ -21,10 +19,6 @@ public class CollectionTest {
 
     static void addToList(List<Integer> nums) {
         nums.add(6);
-    }
-
-    static void deleteList(List<Integer> nums) {
-        nums = new ArrayList<>();
     }
 
     static void clearList(List<Integer> nums) {
